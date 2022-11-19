@@ -1,0 +1,20 @@
+.loader{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid #f3f3f3;
+    border-bottom: 8px solid #6495ed;
+    animation: spin 2s infinite ;
+}
+
+/* adding the animation */
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
